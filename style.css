@@ -1,0 +1,66 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+BODY {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: white;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0 50px;
+    background: white;
+    height: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+header.logo {
+    display: inline-block;
+}
+ header.nav {
+     float: right;
+     display: inline-block;
+}
+header.nav.ul{ 
+    text-transform: uppercase;
+    margin-top:30px;
+    padding: 0;
+    display: flex;
+
+}
+.starcolor{ 
+    color: #f8b732;
+}
+.star {
+    color: black;
+    
+}
+button {
+    background: white;
+    color: #555aff
+    cursor: pointer;
+    
+}
+.bold{
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.cart {
+    color:white;
+    background: #f2849e;
+    padding: 14px 40px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.cart:hover {
+    background: #ba5b81
+}
